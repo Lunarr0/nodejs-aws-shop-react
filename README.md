@@ -1,5 +1,12 @@
 # React-shop-cloudfront
 
+
+### CDK link
+[d3q9g2lmtri9eu.cloudfront.net](https://d3q9g2lmtri9eu.cloudfront.net/)
+
+<img width="1440" alt="Screenshot 2025-02-13 at 09 26 36" src="https://github.com/user-attachments/assets/c2efd583-5ac2-461c-8bea-c78b6d51848a" />
+
+
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
 
 - [Vite](https://vitejs.dev/) as a project bundler
@@ -38,5 +45,3 @@ Runs tests in console, in browser or with coverage.
 Runs linting and formatting for all files in `src` folder.
 
 
-### CDK link
-[d3q9g2lmtri9eu.cloudfront.net](https://d3q9g2lmtri9eu.cloudfront.net/)
