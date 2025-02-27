@@ -10,14 +10,18 @@
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage",
     "lint": "eslint --ignore-path .gitignore --fix src",
-    "prettier": "prettier src --write"
+    "prettier": "prettier src --write",
+    "cdk:build": "pip install -r requirements.txt && npx aws-cdk synth",
+    "cdk:deploy": "npx aws-cdk deploy",
+    "cdk:destroy": "npx aws-cdk destroy",
+    "cdk:bootstrap": "npx aws-cdk bootstrap"
   },
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
     "@mui/icons-material": "^5.8.4",
-    "@mui/material": "^5.8.7",
-    "@mui/styles": "^5.8.7",
+    "@mui/material": "^5.16.14",
+    "@mui/styles": "^5.16.14",
     "@types/yup": "^0.29.14",
     "axios": "^0.27.2",
     "formik": "^2.2.9",

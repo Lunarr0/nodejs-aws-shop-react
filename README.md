@@ -1,8 +1,10 @@
 # React-shop-cloudfront
 
-
+### Manual Deployment:
+   - [x] **s3 bucket link:** https://my-web-shop.s3.us-east-1.amazonaws.com/index.html
+   - [x] **CloudFront Url:** https://dxdyaoxipq2bo.cloudfront.net/
 ### CDK link
-[d3q9g2lmtri9eu.cloudfront.net](https://d3q9g2lmtri9eu.cloudfront.net/)
+   - [x] [d3q9g2lmtri9eu.cloudfront.net](https://d3q9g2lmtri9eu.cloudfront.net/)
 
 
 <img width="1439" alt="Screenshot 2025-02-13 at 09 26 58" src="https://github.com/user-attachments/assets/7d899a5d-378a-4ee7-b808-84a9a46bc481" />
