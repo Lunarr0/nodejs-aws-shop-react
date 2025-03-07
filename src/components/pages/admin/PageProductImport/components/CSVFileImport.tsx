@@ -34,7 +34,9 @@ export default function CSVFileImport({ url, title }: CSVFileImportProps) {
   
     try {
       // Get the presigned URL
-      const response = await axios.get(url, {
+      const response = await axios({
+        method: "GET",
+        url,
         params: { name: encodeURIComponent(file.name) },
       });
   
@@ -44,6 +46,11 @@ export default function CSVFileImport({ url, title }: CSVFileImportProps) {
       const result = await fetch(response.data, {
         method: "PUT",
         body: file,
+        headers: {
+          "Content-Type": "text/csv",
+          "Access-Control-Allow-Origin": "*",
+        },
+        mode: 'cors'
       });
   
       console.log("Result: ", result);
